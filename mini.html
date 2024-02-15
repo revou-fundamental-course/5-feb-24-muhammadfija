@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="mini.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Konversi Suhu</h2>
+      <div class="inputTemp">
+        <label for="celsius"><b>Celsius:</b></label>
+        <input type="number" id="celsius" placeholder="Masukkan suhu dalam Celsius"/>
+      </div>
+      <button onclick="convertTemperature()">Konversi</button>
+      <div class="outputTemp">
+        <label for="fahrenheit">Fahrenheit:</label>
+        <span id="fahrenheit"></span>
+      </div>
+      <div id="calculation"></div>
+    </div>
+    <script src="mini.js"></script>
+  </body>
+</html>
